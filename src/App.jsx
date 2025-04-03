@@ -7,9 +7,10 @@ import PageNotFound from "./pages/PageNotFound";
 function App() {  
   return (
     <div>
-      <h1>
+      {/* <h1>
         This would stay on all pages only the router part is going to change.
-      </h1>
+      </h1> */}
+      
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />

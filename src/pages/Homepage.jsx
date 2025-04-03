@@ -1,7 +1,13 @@
+import { Link } from "react-router-dom";
+import PageNav from "../components/PageNav";
+
 function Homepage() {
   return (
     <div>
-      <h2>Homepage (Worldwise)</h2>
+      <PageNav />
+      <h1>Homepage (Worldwise)</h1>
+      {/* <a href="/pricing">Pricing page - Anchor</a> */}
+      <Link to="/pricing">Pricing</Link>
     </div>
   )
 }
