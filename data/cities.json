@@ -39,26 +39,26 @@
     {
       "cityName": "Delhi",
       "country": "India",
-      "emoji": "IN",
-      "date": "2027-07-11T08:22:53.976Z",
-      "notes": "",
+      "emoji": "🇮🇳",
+      "date": "2025-04-29T12:00:00.000Z",
+      "notes": "Historic and vibrant!",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": 28.6139,
+        "lng": 77.2090
       },
-      "id": 17805678
+      "id": 10000001
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "cityName": "Meerut",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2025-04-29T12:00:00.000Z",
+      "notes": "A growing city!",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": 28.9845,
+        "lng": 77.7064
       },
-      "id": 98443620
-    }
+      "id": 10000002
+    }        
   ]
 }
