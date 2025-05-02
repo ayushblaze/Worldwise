@@ -56,11 +56,8 @@ src/
 
 ## Screenshots
 
-> _Add screenshots of your app here!_
->
-> Example:
-> ![Homepage screenshot](./src/assets/screenshot-home.png)
-> ![Map feature screenshot](./src/assets/screenshot-map.png)
+![screencapture-localhost-5173-app-cities-2025-05-02-22_05_01](https://github.com/user-attachments/assets/c4149a72-5d9c-41f9-a174-17870908d321)
+
 
 To add screenshots:
 1. Take screenshots of your app (e.g., homepage, map, add city form).
