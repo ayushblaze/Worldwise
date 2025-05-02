@@ -5,8 +5,11 @@ Worldwise is a modern React application that helps users explore and manage info
 ## Features
 
 - 🌍 **City & Country Explorer:** Browse, view, and manage lists of cities and countries.
-- 🗺️ **Interactive Map:** Visualize locations on a map.
-- 📝 **Form Handling:** Add or update information about cities.
+- 🗺️ **Interactive Map:** Visualize locations on a map using OpenStreetMap and React Leaflet.
+- 📍 **Geolocation:** Instantly use your current location to add a city.
+- 🔄 **Reverse Geocoding:** Automatically fetch city and country details by clicking on the map.
+- 📝 **Travel Journaling:** Add personal notes and date for each city you visit.
+- 🇺🇳 **Emoji Country Flags:** Visualize countries with their flag emojis.
 - 🔒 **Authentication:** Login system for user access.
 - 🚦 **Loading States & Error Handling:** User-friendly feedback during data fetching.
 - 🧩 **Modular Components:** Reusable and well-organized components for UI and logic.
@@ -50,6 +53,20 @@ src/
     ├── Pricing.jsx
     └── Product.jsx
 ```
+
+## Screenshots
+
+> _Add screenshots of your app here!_
+>
+> Example:
+> ![Homepage screenshot](./src/assets/screenshot-home.png)
+> ![Map feature screenshot](./src/assets/screenshot-map.png)
+
+To add screenshots:
+1. Take screenshots of your app (e.g., homepage, map, add city form).
+2. Save them in the `src/assets/` directory.
+3. Reference them above using the correct path.
+
 
 ## Getting Started
 
