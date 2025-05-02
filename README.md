@@ -57,12 +57,8 @@ src/
 ## Screenshots
 
 ![screencapture-localhost-5173-app-cities-2025-05-02-22_05_01](https://github.com/user-attachments/assets/c4149a72-5d9c-41f9-a174-17870908d321)
-
-
-To add screenshots:
-1. Take screenshots of your app (e.g., homepage, map, add city form).
-2. Save them in the `src/assets/` directory.
-3. Reference them above using the correct path.
+![screencapture-localhost-5173-app-form-2025-05-02-22_06_47](https://github.com/user-attachments/assets/7b0a11a9-5e9d-4eb6-90ee-bcf80e19d85f)
+![screencapture-localhost-5173-app-form-2025-05-02-22_07_00](https://github.com/user-attachments/assets/a2cf2eb2-e780-4d25-bcd0-f04ccf90a6d7)
 
 
 ## Getting Started
