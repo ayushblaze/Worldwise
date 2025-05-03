@@ -59,66 +59,6 @@
         "lng": 77.7064
       },
       "id": 10000002
-    },
-    {
-      "cityName": "Teruel",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-05-03T03:02:20.233Z",
-      "notes": "",
-      "position": {
-        "lat": "40.344922315082776",
-        "lng": "-1.0801972210612834"
-      },
-      "id": 98443198
-    },
-    {
-      "cityName": "Teruel",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-05-03T03:02:20.233Z",
-      "notes": "",
-      "position": {
-        "lat": "40.344922315082776",
-        "lng": "-1.0801972210612834"
-      },
-      "id": 98443199
-    },
-    {
-      "cityName": "Albacete",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-05-03T03:02:47.549Z",
-      "notes": "Hola Madrid!!!!!!!!",
-      "position": {
-        "lat": "38.89529866419081",
-        "lng": "-1.8931203618671846"
-      },
-      "id": 98443200
-    },
-    {
-      "cityName": "Alcala la Real",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-05-03T03:08:37.435Z",
-      "notes": "This has to show up in the city list",
-      "position": {
-        "lat": "37.45350211368205",
-        "lng": "-3.9282043917894076"
-      },
-      "id": 98443201
-    },
-    {
-      "cityName": "Albarracin",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-05-03T03:30:38.146Z",
-      "notes": "Redirect",
-      "position": {
-        "lat": "40.40490418794608",
-        "lng": "-1.4353308851297244"
-      },
-      "id": 98443202
     }
   ]
 }
