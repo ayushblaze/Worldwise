@@ -4,17 +4,23 @@ Worldwise is a modern, feature-rich React application that lets you explore, tra
 
 ## Features
 
-- 🌍 **City & Country Explorer:** Browse, view, and manage a personalized list of cities and countries you've visited or wish to explore.
-- 🗺️ **Interactive Map:** Visualize locations using OpenStreetMap and React Leaflet. Click anywhere on the map to add a new city with automatic reverse geocoding.
-- 📍 **Geolocation Support:** Instantly use your current location to add a city, thanks to the browser's geolocation API.
-- 🔄 **Reverse Geocoding:** Automatically fetch city and country details by clicking on the map, making data entry effortless.
-- 📝 **Travel Journaling:** Add personal notes and the date for each city you visit, creating a travel diary.
-- 🇺🇳 **Emoji Country Flags:** Instantly recognize countries with their flag emojis for a visually engaging experience.
-- 🔒 **Protected Routes:** Secure sections of the app (like the main dashboard) are only accessible to authenticated users, ensuring privacy and a tailored experience.
-- 🧠 **Context-Based State Management:** Uses React Context API for global state management, making data accessible throughout the app without prop drilling.
-- 🪢 **useReducer for Complex State:** Where multiple pieces of state are involved (such as cities, loading status, current city, and errors), useReducer is used to keep state organized and updates predictable and maintainable.
-- 🚦 **Loading States & Error Handling:** User-friendly feedback during data fetching, with spinners and error messages for a smooth UX.
-- 🔑 **Authentication:** Simple login system with context-based authentication and demo credentials for easy access.
+- 🌍 ___City & Country Explorer:___ Browse, view, and manage a personalized list of cities and countries you've visited or wish to explore.
+- 🗺️ ___Interactive Map:___ Visualize locations using OpenStreetMap and React Leaflet. Click anywhere on the map to add a new city with automatic reverse geocoding.
+- 📍 ___Geolocation Support:___ Instantly use your current location to add a city, thanks to the browser's geolocation API.
+- 🔄 ___Reverse Geocoding:___ Automatically fetch city and country details by clicking on the map, making data entry effortless.
+- 📝 ___Travel Journaling:___ Add personal notes and the date for each city you visit, creating a travel diary.
+- 🇺🇳 ___Emoji Country Flags:___ Instantly recognize countries with their flag emojis for a visually engaging experience.
+- 🔒 ___Protected Routes:___ Secure sections of the app (like the main dashboard) are only accessible to authenticated users, ensuring privacy and a tailored experience.
+- 🧠 ___Context-Based State Management:___ Uses React Context API for global state management, making data accessible throughout the app without prop drilling.
+- 🪢 ___useReducer for Complex State:___ Where multiple pieces of state are involved (such as cities, loading status, current city, and errors), useReducer is used to keep state organized and updates predictable and maintainable.
+- 🚦 ___Loading States & Error Handling:___ User-friendly feedback during data fetching, with spinners and error messages for a smooth UX.
+- 🔑 ___Authentication:___ Simple login system with context-based authentication and demo credentials for easy access.
+
+## Key Architectural Highlights
+- ____Context Providers:____ Both authentication and city/country data are managed via context providers, ensuring global accessibility and clean code.
+- ____useReducer for State Logic:____ Complex state transitions (like loading, error, CRUD operations on cities) are handled with useReducer, making the logic robust and easy to extend.
+- ____Protected Routing:____ The app uses a ProtectedRoute component to guard sensitive routes, redirecting unauthenticated users to the login page.
+- ___Component Organization:___ UI is split into reusable components (e.g., City, CountryList, Map, Sidebar), making the codebase easy to navigate and extend.
 
 ## Project Structure
 
@@ -56,12 +62,6 @@ src/
     └── Product.jsx
 ```
 
-## Key Architectural Highlights
-- **Context Providers:** Both authentication and city/country data are managed via context providers, ensuring global accessibility and clean code.
-- **useReducer for State Logic:** Complex state transitions (like loading, error, CRUD operations on cities) are handled with useReducer, making the logic robust and easy to extend.
-- **Protected Routing:** The app uses a ProtectedRoute component to guard sensitive routes, redirecting unauthenticated users to the login page.
-- **Component Organization:** UI is split into reusable components (e.g., City, CountryList, Map, Sidebar), making the codebase easy to navigate and extend.
-
 ## Screenshots
 
 ![screencapture-localhost-5173-app-cities-2025-05-02-22_05_01](https://github.com/user-attachments/assets/c4149a72-5d9c-41f9-a174-17870908d321)
@@ -71,24 +71,24 @@ src/
 
 ## Getting Started
 
-1. **Install dependencies:**
+1. ___Install dependencies:___
    ```bash
    npm install
    ```
-2. **Run the development server:**
+2. ___Run the development server:___
    ```bash
    npm run dev
    ```
-3. **Open your browser:**  
+3. ___Open your browser:___  
    Visit `http://localhost:5173` to view the app.
 
 ## Tech Stack
 
-- **React** (with hooks)
-- **Vite** (for fast development)
-- **React Router** (for client-side routing)
-- **CSS Modules** (scoped styling)
-- **Fetch API** (for data loading)
+- ___React___ (with hooks)
+- ___Vite___ (for fast development)
+- ___React Router___ (for client-side routing)
+- ___CSS Modules___ (scoped styling)
+- ___Fetch API___ (for data loading)
 
 ## Customization
 
