@@ -96,6 +96,4 @@ src/
 - Modify or extend components in the `src/components` folder.
 - Update page layouts in the `src/pages` folder.
 
-## License
-
-This project is for educational and demonstration purposes.
+Made with 💗 by [@ayushblaze](https://github.com/ayushblaze)
