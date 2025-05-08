@@ -22,6 +22,14 @@ Worldwise is a modern, feature-rich React application that lets you explore, tra
 - ___Loading States & Error Handling:___ User-friendly feedback during data fetching, with spinners and error messages for a smooth UX.
 - ___Authentication:___ Simple login system with context-based authentication and demo credentials for easy access.
 
+> Use the following credentials to log in as a demo user.
+### 🧪 Test Credentials
+
+| Email               | Password |
+|---------------------|----------|
+| ayush@worldwise.com | qwerty   |
+
+
 ## Project Structure
 
 ```
