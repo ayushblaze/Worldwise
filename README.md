@@ -93,6 +93,7 @@ src/
 ## Tech Stack
 
 - ___React___ (with hooks)
+- - ___React-Leaflet___ (for interactive maps)
 - ___Vite___ (for fast development)
 - ___React Router___ (for client-side routing)
 - ___CSS Modules___ (scoped styling)
