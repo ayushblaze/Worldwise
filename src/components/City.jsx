@@ -22,7 +22,7 @@ function City() {
 
   useEffect(function() {
     getCity(id);
-  }, [id]);
+  }, [id, getCity]);
   
   const [searchParams, setSearchParams] = useSearchParams();
   const lat = searchParams.get('lat');
