@@ -22,6 +22,14 @@ Worldwise is a modern, feature-rich React application that lets you explore, tra
 - ___Loading States & Error Handling:___ User-friendly feedback during data fetching, with spinners and error messages for a smooth UX.
 - ___Authentication:___ Simple login system with context-based authentication and demo credentials for easy access.
 
+> Use the following credentials to log in as a demo user.
+### 🧪 Test Credentials
+
+| Email               | Password |
+|---------------------|----------|
+| ayush@worldwise.com | qwerty   |
+
+
 ## Project Structure
 
 ```
@@ -85,6 +93,7 @@ src/
 ## Tech Stack
 
 - ___React___ (with hooks)
+- - ___React-Leaflet___ (for interactive maps)
 - ___Vite___ (for fast development)
 - ___React Router___ (for client-side routing)
 - ___CSS Modules___ (scoped styling)
@@ -96,6 +105,4 @@ src/
 - Modify or extend components in the `src/components` folder.
 - Update page layouts in the `src/pages` folder.
 
-## License
-
-This project is for educational and demonstration purposes.
+Made with 💗 by [@ayushblaze](https://github.com/ayushblaze)
