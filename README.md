@@ -77,6 +77,9 @@ src/
 ![screencapture-localhost-5173-app-form-2025-05-02-22_07_00](https://github.com/user-attachments/assets/a2cf2eb2-e780-4d25-bcd0-f04ccf90a6d7)
 
 
+## Deployed Project
+[View the live project here](https://ayushblaze-worldwise.netlify.app/)
+
 ## Getting Started
 
 1. ___Install dependencies:___
