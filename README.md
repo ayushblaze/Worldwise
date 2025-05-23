@@ -1,6 +1,6 @@
 # Worldwise
 
-Worldwise is a modern, feature-rich React application that lets you explore, track, and manage cities and countries around the globe. Designed for travelers and explorers, it combines an interactive map, journaling, and robust state management to deliver a seamless user experience.
+**Worldwise** is a React application for travelers and explorers to discover, track, and journal cities and countries worldwide. With an interactive map, seamless geolocation, and secure authentication, Worldwise delivers an engaging and intuitive experience for planning and recording your journeys.
 
 ## Key Architectural Highlights
 - ___Context Providers:___ Both authentication and city/country data are managed via context providers, ensuring global accessibility and clean code.
